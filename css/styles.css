@@ -92,11 +92,33 @@ body{
     text-align: center;
 }
 
+.padding-m{
+    padding: 2.5%;
+}
+
 img{
     height: 20vw;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 10px;
+    width: 100%;
 }
+
+a{
+    text-decoration: none;
+    color: green;
+}
+
+img:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    /* transition: transform 0.5s; */
+}
+
+
+
+
+
+
 
 /* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
 .flex{
@@ -117,5 +139,8 @@ img{
     /* column-4 pasará de tener 25% a 50% */
     .column-4{
         width: 50%;
+    }
+    img{
+        height: 60vw;
     }
 }
